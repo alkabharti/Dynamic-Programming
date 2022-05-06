@@ -5,7 +5,7 @@ Whenever we end up solving same subproblems again and again and again.
 
 ### Memoization :
 To solve the above problem, we have **memoization :** tend to store the value of sub problems in some map/table. 
-
+Memoization is also known as a top-down approach. It starts from solving the highest-level sub-problems. Initially, it solves the highest-level subproblem and then solve the next sub-problem recursively and the next. 
 
 ### How to convert Recursion into DP :
 
