@@ -18,6 +18,16 @@ Memoization is also known as a **top-down approach**. It starts from solving the
 - **Space Complexity : O(N)**--> Recursion stack **+ O(N)**--> Array
 
 
+```java
+static int f(int n, int[] dp)
+{
+    if(n<=1) return n;
+    
+    if(dp[n]!= -1) return dp[n];
+    return dp[n]= f(n-1,dp) + f(n-2,dp);
+}
+```
+
 ![image](https://user-images.githubusercontent.com/23376002/167126480-04637616-3950-4ced-954a-c200645672ac.png)
 
 
@@ -26,4 +36,54 @@ In the tabulation approach to DP (also known as the table-filling method) we sol
 
 - **Time Complexity : O(N)**  
 - **Space Complexity : O(N)**
+
+
+```java
+public static void main(String args[]) 
+{
+
+  int n=5;
+  int dp[]=new int[n+1];
+  Arrays.fill(dp,-1);
+  dp[0]= 0;
+  dp[1]= 1;
+  
+  for(int i=2; i<=n; i++)
+  {
+      dp[i] = dp[i-1]+ dp[i-2];
+  }
+  System.out.println(dp[n]);  
+}
+```
+
+![image](https://user-images.githubusercontent.com/23376002/167133690-50027d3d-021b-4b35-86a4-2c2d6ddd8777.png)
+
+
+### 3. Space Optimization :
+
+
+```java
+public static void main(String args[]) 
+{
+    int n=5;
+
+    int prev2 = 0;
+    int prev = 1;
+
+    for(int i=2; i<=n; i++){
+        int cur_i = prev2+ prev;
+        prev2 = prev;
+        prev= cur_i;
+    }
+    System.out.println(prev);
+}
+```
+
+- **Time Complexity : O(N)**  
+- **Space Complexity : O(1)**
+
+
+
+**Reference :** https://takeuforward.org/data-structure/dynamic-programming-introduction/
+
 
