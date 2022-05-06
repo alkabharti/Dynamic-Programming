@@ -84,8 +84,6 @@ public static void main(String args[])
 
 
 
-**Reference :** https://takeuforward.org/data-structure/dynamic-programming-introduction/
-
 
 ## How to find if a problem is of DP:
 
@@ -95,5 +93,6 @@ public static void main(String args[])
 
 
 
+**Reference :** https://takeuforward.org/data-structure/dynamic-programming-introduction/
 
 
