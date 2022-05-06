@@ -24,5 +24,6 @@ Memoization is also known as a **top-down approach**. It starts from solving the
 ### 2. Tabulation :
 In the tabulation approach to DP (also known as the table-filling method) we solve all sub-problems and store their results on a matrix. these results are then used to solve larger problems that depend on the previously computed results. Because of this, the tabulation approach is also known as a **bottom-up approach**.
 
-
+- **Time Complexity : O(N)**  
+- **Space Complexity : O(N)**
 
