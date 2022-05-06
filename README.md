@@ -87,3 +87,13 @@ public static void main(String args[])
 **Reference :** https://takeuforward.org/data-structure/dynamic-programming-introduction/
 
 
+## How to find if a problem is of DP:
+
+- Count the no. of ways
+- If need to find min/max from multiple ways (best way)
+- Count distinct ways
+
+
+
+
+
