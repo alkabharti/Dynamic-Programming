@@ -12,3 +12,11 @@ To solve the above problem, we have **memoization :** tend to store the value of
 - Declare a DP array : dp[n+1] (n is the size of sub problems)
 - Storing the answer which is being computed for every subproblem. 
 - Checking if subproblem has been previously solved. 
+
+
+![image](https://user-images.githubusercontent.com/23376002/167126480-04637616-3950-4ced-954a-c200645672ac.png)
+
+
+
+
+
