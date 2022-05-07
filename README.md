@@ -56,8 +56,6 @@ public static void main(String args[])
 }
 ```
 
-![image](https://user-images.githubusercontent.com/23376002/167133690-50027d3d-021b-4b35-86a4-2c2d6ddd8777.png)
-
 ![image](https://user-images.githubusercontent.com/23376002/167256612-fa264ad2-eb2c-4214-8573-7ea35b5ff0ff.png)
 
 
