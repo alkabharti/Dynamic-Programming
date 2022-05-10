@@ -93,6 +93,7 @@ public static void main(String args[])
 
 
 
-**Reference :** https://takeuforward.org/data-structure/dynamic-programming-introduction/
+**Reference :** 
 
-
+- https://takeuforward.org/data-structure/dynamic-programming-introduction/
+- https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/
