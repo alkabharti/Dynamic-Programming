@@ -96,10 +96,10 @@ public static void main(String args[])
 
 - Try to represent the problem in terms of index
 - Do all possible stuff on that index according to the problem statement
-- If question is to
-      - count all ways : sum of all stuff
-      - find minimum : min of all stuff
-      - find maximum : max of all stuff
+- If question is to : 
+    - count all ways : sum of all stuff
+    - find minimum : min of all stuff
+    - find maximum : max of all stuff
 
 
 
