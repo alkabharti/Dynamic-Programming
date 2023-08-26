@@ -88,8 +88,19 @@ public static void main(String args[])
 ## How to find if a problem is of DP:
 
 - Count the no. of ways
-- If need to find min/max from multiple ways (best way)
+- If need to find min/max from multiple ways (find best way)
 - Count distinct ways
+
+
+## Shortcut Trick in DP:
+
+- Try to represent the problem in terms of index
+- Do all possible stuff on that index according to the problem statement
+- If question is to
+      - count all ways : sum of all stuff
+      - find minimum : min of all stuff
+      - find maximum : max of all stuff
+
 
 
 
